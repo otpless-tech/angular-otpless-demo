@@ -46,10 +46,11 @@ constructor() {
 - Run the demo
 
     ```bash
-    npm run dev
+   ng serve
+
     ```
 
-- Open [localhost:5173](http://localhost:5173) in your browser
+- Open [localhost:4200]((http://localhost:4200/)) in your browser
 - Switch branches to check out available options to integrate *OTPless* in your project
 
 
