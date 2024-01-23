@@ -8,7 +8,7 @@
 
 > Add the following code to your sign up/ sign in page where you want to embed your sign in functionality.
 
-```component.html
+```index.html
 <div id="otpless-login-page"></div>
 <script type="text/javascript" src="https://otpless.com/auth.js" cid="YOUR_CID_HERE"></script>
 // Replace YOUR_CID_HERE with your cid
@@ -41,7 +41,7 @@ constructor() {
     npm install
     ```
 
-- Add `cid` to the script by replacing [YOUR_CID_HERE](./src/utils/otpless.js#L6) with your cid from [OTPless docs](https://otpless.com/platforms/react#react_STEP_1)
+- Add `cid` to the script by replacing [YOUR_CID_HERE](./src/index.html#L14) with your cid from [OTPless docs](https://otpless.com/platforms/angular#angular_STEP_1)
 
 - Run the demo
 
@@ -73,3 +73,4 @@ constructor() {
     }
 }
 ```
+
