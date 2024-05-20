@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      id="otpless-sdk"
+      type="text/javascript"
+      src="https://otpless.com/v2/auth.js"
+      data-appid="DTRR3GPNQQIY5VXN9K1T"
+    ></script>
+  </head>
+  <body>
+    <div class="content" style="display: flex">
+      <div id="otpless-login-page"></div>
+      <div id="alert-data"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const alertDataContainer = document.getElementById("alert-data");
+        if (window.alertData) {
+          alertDataContainer.innerHTML = window.alertData;
+        }
+      });
+    </script>
+  </body>
+</html>
